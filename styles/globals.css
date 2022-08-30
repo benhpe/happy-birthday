@@ -24,3 +24,54 @@ a {
     background: black;
   }
 }
+
+
+body {
+  margin: 0;
+  background: #020202;
+  cursor: crosshair;
+}
+canvas{display:block}
+h1 {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-family: "Source Sans Pro";
+  font-size: 5em;
+  font-weight: 900;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#greek-wine-iframe {
+  position: absolute;
+  top: 550px;
+  max-width: calc(100% - 50px);
+  /* height: fit-content; */
+}
+
+.greek-wine-description {
+  top: 900px;
+  max-width: calc(100% - 50px);
+  padding: 25px;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  max-width: 800px;
+  color: white;
+}
+
+.greek-wine-description div {
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px
+}
+.greek-wine-description img {
+  max-width: 150px;
+  width: 20%;
+  width: auto;
+  height: auto;
+  height: fit-content;
+}
